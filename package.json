@@ -1,0 +1,26 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "server": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fastify/auth": "^4.2.0",
+    "@fastify/cors": "^8.2.0",
+    "axios": "^1.2.2",
+    "dotenv": "^16.0.3",
+    "fastify": "^4.11.0",
+    "jsonwebtoken": "^9.0.0",
+    "native-json-db": "^1.0.1",
+    "ulid": "^2.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
